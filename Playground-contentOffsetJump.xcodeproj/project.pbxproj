@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DCC8AF180AA11700468BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DCC8AE180AA11700468BE7 /* Foundation.framework */; };
+		A6DCC8B1180AA11700468BE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DCC8B0180AA11700468BE7 /* CoreGraphics.framework */; };
+		A6DCC8B3180AA11700468BE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DCC8B2180AA11700468BE7 /* UIKit.framework */; };
+		A6DCC8B9180AA11700468BE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DCC8B7180AA11700468BE7 /* InfoPlist.strings */; };
+		A6DCC8BB180AA11700468BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DCC8BA180AA11700468BE7 /* main.m */; };
+		A6DCC8BF180AA11700468BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DCC8BE180AA11700468BE7 /* AppDelegate.m */; };
+		A6DCC8C2180AA11700468BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DCC8C0180AA11700468BE7 /* Main.storyboard */; };
+		A6DCC8C5180AA11700468BE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DCC8C4180AA11700468BE7 /* ViewController.m */; };
+		A6DCC8C7180AA11700468BE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DCC8C6180AA11700468BE7 /* Images.xcassets */; };
+		A6DCC8CE180AA11700468BE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DCC8CD180AA11700468BE7 /* XCTest.framework */; };
+		A6DCC8CF180AA11700468BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DCC8AE180AA11700468BE7 /* Foundation.framework */; };
+		A6DCC8D0180AA11700468BE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DCC8B2180AA11700468BE7 /* UIKit.framework */; };
+		A6DCC8D8180AA11700468BE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DCC8D6180AA11700468BE7 /* InfoPlist.strings */; };
+		A6DCC8DA180AA11700468BE7 /* Playground_contentOffsetJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DCC8D9180AA11700468BE7 /* Playground_contentOffsetJumpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6DCC8D1180AA11700468BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6DCC8A3180AA11700468BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6DCC8AA180AA11700468BE7;
+			remoteInfo = "Playground-contentOffsetJump";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6DCC8AB180AA11700468BE7 /* Playground-contentOffsetJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playground-contentOffsetJump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DCC8AE180AA11700468BE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DCC8B0180AA11700468BE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DCC8B2180AA11700468BE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DCC8B6180AA11700468BE7 /* Playground-contentOffsetJump-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Playground-contentOffsetJump-Info.plist"; sourceTree = "<group>"; };
+		A6DCC8B8180AA11700468BE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DCC8BA180AA11700468BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DCC8BC180AA11700468BE7 /* Playground-contentOffsetJump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playground-contentOffsetJump-Prefix.pch"; sourceTree = "<group>"; };
+		A6DCC8BD180AA11700468BE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6DCC8BE180AA11700468BE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6DCC8C1180AA11700468BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6DCC8C3180AA11700468BE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6DCC8C4180AA11700468BE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6DCC8C6180AA11700468BE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6DCC8CC180AA11700468BE7 /* Playground-contentOffsetJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playground-contentOffsetJumpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DCC8CD180AA11700468BE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A6DCC8D5180AA11700468BE7 /* Playground-contentOffsetJumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Playground-contentOffsetJumpTests-Info.plist"; sourceTree = "<group>"; };
+		A6DCC8D7180AA11700468BE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DCC8D9180AA11700468BE7 /* Playground_contentOffsetJumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playground_contentOffsetJumpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DCC8A8180AA11700468BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DCC8B1180AA11700468BE7 /* CoreGraphics.framework in Frameworks */,
+				A6DCC8B3180AA11700468BE7 /* UIKit.framework in Frameworks */,
+				A6DCC8AF180AA11700468BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DCC8C9180AA11700468BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DCC8CE180AA11700468BE7 /* XCTest.framework in Frameworks */,
+				A6DCC8D0180AA11700468BE7 /* UIKit.framework in Frameworks */,
+				A6DCC8CF180AA11700468BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DCC8A2180AA11700468BE7 = {
+			isa = PBXGroup;
+			children = (
+				A6DCC8B4180AA11700468BE7 /* Playground-contentOffsetJump */,
+				A6DCC8D3180AA11700468BE7 /* Playground-contentOffsetJumpTests */,
+				A6DCC8AD180AA11700468BE7 /* Frameworks */,
+				A6DCC8AC180AA11700468BE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DCC8AC180AA11700468BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DCC8AB180AA11700468BE7 /* Playground-contentOffsetJump.app */,
+				A6DCC8CC180AA11700468BE7 /* Playground-contentOffsetJumpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DCC8AD180AA11700468BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DCC8AE180AA11700468BE7 /* Foundation.framework */,
+				A6DCC8B0180AA11700468BE7 /* CoreGraphics.framework */,
+				A6DCC8B2180AA11700468BE7 /* UIKit.framework */,
+				A6DCC8CD180AA11700468BE7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DCC8B4180AA11700468BE7 /* Playground-contentOffsetJump */ = {
+			isa = PBXGroup;
+			children = (
+				A6DCC8BD180AA11700468BE7 /* AppDelegate.h */,
+				A6DCC8BE180AA11700468BE7 /* AppDelegate.m */,
+				A6DCC8C0180AA11700468BE7 /* Main.storyboard */,
+				A6DCC8C3180AA11700468BE7 /* ViewController.h */,
+				A6DCC8C4180AA11700468BE7 /* ViewController.m */,
+				A6DCC8C6180AA11700468BE7 /* Images.xcassets */,
+				A6DCC8B5180AA11700468BE7 /* Supporting Files */,
+			);
+			path = "Playground-contentOffsetJump";
+			sourceTree = "<group>";
+		};
+		A6DCC8B5180AA11700468BE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DCC8B6180AA11700468BE7 /* Playground-contentOffsetJump-Info.plist */,
+				A6DCC8B7180AA11700468BE7 /* InfoPlist.strings */,
+				A6DCC8BA180AA11700468BE7 /* main.m */,
+				A6DCC8BC180AA11700468BE7 /* Playground-contentOffsetJump-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6DCC8D3180AA11700468BE7 /* Playground-contentOffsetJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6DCC8D9180AA11700468BE7 /* Playground_contentOffsetJumpTests.m */,
+				A6DCC8D4180AA11700468BE7 /* Supporting Files */,
+			);
+			path = "Playground-contentOffsetJumpTests";
+			sourceTree = "<group>";
+		};
+		A6DCC8D4180AA11700468BE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DCC8D5180AA11700468BE7 /* Playground-contentOffsetJumpTests-Info.plist */,
+				A6DCC8D6180AA11700468BE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DCC8AA180AA11700468BE7 /* Playground-contentOffsetJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DCC8DD180AA11700468BE7 /* Build configuration list for PBXNativeTarget "Playground-contentOffsetJump" */;
+			buildPhases = (
+				A6DCC8A7180AA11700468BE7 /* Sources */,
+				A6DCC8A8180AA11700468BE7 /* Frameworks */,
+				A6DCC8A9180AA11700468BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playground-contentOffsetJump";
+			productName = "Playground-contentOffsetJump";
+			productReference = A6DCC8AB180AA11700468BE7 /* Playground-contentOffsetJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6DCC8CB180AA11700468BE7 /* Playground-contentOffsetJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DCC8E0180AA11700468BE7 /* Build configuration list for PBXNativeTarget "Playground-contentOffsetJumpTests" */;
+			buildPhases = (
+				A6DCC8C8180AA11700468BE7 /* Sources */,
+				A6DCC8C9180AA11700468BE7 /* Frameworks */,
+				A6DCC8CA180AA11700468BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6DCC8D2180AA11700468BE7 /* PBXTargetDependency */,
+			);
+			name = "Playground-contentOffsetJumpTests";
+			productName = "Playground-contentOffsetJumpTests";
+			productReference = A6DCC8CC180AA11700468BE7 /* Playground-contentOffsetJumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DCC8A3180AA11700468BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Arkadiusz Holko";
+				TargetAttributes = {
+					A6DCC8CB180AA11700468BE7 = {
+						TestTargetID = A6DCC8AA180AA11700468BE7;
+					};
+				};
+			};
+			buildConfigurationList = A6DCC8A6180AA11700468BE7 /* Build configuration list for PBXProject "Playground-contentOffsetJump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6DCC8A2180AA11700468BE7;
+			productRefGroup = A6DCC8AC180AA11700468BE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DCC8AA180AA11700468BE7 /* Playground-contentOffsetJump */,
+				A6DCC8CB180AA11700468BE7 /* Playground-contentOffsetJumpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DCC8A9180AA11700468BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DCC8C7180AA11700468BE7 /* Images.xcassets in Resources */,
+				A6DCC8B9180AA11700468BE7 /* InfoPlist.strings in Resources */,
+				A6DCC8C2180AA11700468BE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DCC8CA180AA11700468BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DCC8D8180AA11700468BE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DCC8A7180AA11700468BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DCC8C5180AA11700468BE7 /* ViewController.m in Sources */,
+				A6DCC8BF180AA11700468BE7 /* AppDelegate.m in Sources */,
+				A6DCC8BB180AA11700468BE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DCC8C8180AA11700468BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DCC8DA180AA11700468BE7 /* Playground_contentOffsetJumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6DCC8D2180AA11700468BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6DCC8AA180AA11700468BE7 /* Playground-contentOffsetJump */;
+			targetProxy = A6DCC8D1180AA11700468BE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6DCC8B7180AA11700468BE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DCC8B8180AA11700468BE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6DCC8C0180AA11700468BE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DCC8C1180AA11700468BE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6DCC8D6180AA11700468BE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DCC8D7180AA11700468BE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DCC8DB180AA11700468BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6DCC8DC180AA11700468BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DCC8DE180AA11700468BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playground-contentOffsetJump/Playground-contentOffsetJump-Prefix.pch";
+				INFOPLIST_FILE = "Playground-contentOffsetJump/Playground-contentOffsetJump-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DCC8DF180AA11700468BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playground-contentOffsetJump/Playground-contentOffsetJump-Prefix.pch";
+				INFOPLIST_FILE = "Playground-contentOffsetJump/Playground-contentOffsetJump-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6DCC8E1180AA11700468BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Playground-contentOffsetJump.app/Playground-contentOffsetJump";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playground-contentOffsetJump/Playground-contentOffsetJump-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Playground-contentOffsetJumpTests/Playground-contentOffsetJumpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A6DCC8E2180AA11700468BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Playground-contentOffsetJump.app/Playground-contentOffsetJump";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playground-contentOffsetJump/Playground-contentOffsetJump-Prefix.pch";
+				INFOPLIST_FILE = "Playground-contentOffsetJumpTests/Playground-contentOffsetJumpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DCC8A6180AA11700468BE7 /* Build configuration list for PBXProject "Playground-contentOffsetJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DCC8DB180AA11700468BE7 /* Debug */,
+				A6DCC8DC180AA11700468BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DCC8DD180AA11700468BE7 /* Build configuration list for PBXNativeTarget "Playground-contentOffsetJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DCC8DE180AA11700468BE7 /* Debug */,
+				A6DCC8DF180AA11700468BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6DCC8E0180AA11700468BE7 /* Build configuration list for PBXNativeTarget "Playground-contentOffsetJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DCC8E1180AA11700468BE7 /* Debug */,
+				A6DCC8E2180AA11700468BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DCC8A3180AA11700468BE7 /* Project object */;
+}
