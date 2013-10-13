@@ -57,8 +57,6 @@
     [UIView animateWithDuration:duration delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
         self.bottomSpaceConstraint.constant = height;
 
-//        [self.collectionView setContentInset:UIEdgeInsetsMake(0, 0, height, 0)];
-
         CGPoint bottomOffset = CGPointMake(0, self.collectionView.contentSize.height - (self.collectionView.bounds.size.height - height));
         [self.collectionView setContentOffset:bottomOffset animated:NO];
         [self.view layoutIfNeeded];
