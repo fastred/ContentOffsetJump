@@ -61,9 +61,6 @@
                                         <state key="normal" title="Send">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <action selector="submitPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vt2-Xr-XFe"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -78,8 +75,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="lms-61-5YC" firstAttribute="top" secondItem="nYh-d6-gYS" secondAttribute="bottom" constant="48" id="BSy-n1-xwU"/>
                             <constraint firstItem="11N-Do-Se3" firstAttribute="trailing" secondItem="nYh-d6-gYS" secondAttribute="trailing" id="Bf5-aF-Evh"/>
+                            <constraint firstItem="11N-Do-Se3" firstAttribute="top" secondItem="nYh-d6-gYS" secondAttribute="bottom" id="VuI-n6-3IE"/>
                             <constraint firstItem="11N-Do-Se3" firstAttribute="leading" secondItem="nYh-d6-gYS" secondAttribute="leading" id="cSq-bR-x8l"/>
                             <constraint firstItem="lms-61-5YC" firstAttribute="top" secondItem="11N-Do-Se3" secondAttribute="bottom" id="lY9-FC-cNc"/>
                             <constraint firstItem="nYh-d6-gYS" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="rHr-Uw-Zwe"/>
